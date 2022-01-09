@@ -1,10 +1,29 @@
 * {
   box-sizing: border-box;
 }
+
 .site-wrapper {
   max-width: 1440px;
   margin: 0 auto;
   background-color: #FFFFFF;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #454545;
+}
+
+.button {
+  height: 45px;
+  width: 140px;
+  padding: 14px 32px;
+  border: 1px solid #969696;
+  border-radius: 2px;
+  text-align: center;
+  color: #969696;
+  text-decoration: none;
 }
 
 /* Header */
@@ -359,4 +378,96 @@ margin: 17px 27px 11px 0;
 
 .advantage__itemImg svg{
   transform: translateY(50%);
+}
+
+/* best hotels */
+.best-hotels {
+  margin-top: 70px;
+}
+
+.best-hotels__tab {
+  position: relative;
+}
+
+.best-hotels__top{
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.best-hotels__title {
+  font-size: 45px;
+  font-weight: 500;
+  margin-right: 50px;
+}
+
+.best-hotels__leftArrow {
+  margin-right: 20px;
+  border-color: #C6C6C6;
+  text-align: center;
+  cursor: pointer;
+}
+
+.best-hotels__leftArrow svg,
+.best-hotels__rightArrow svg {
+  transform: translateY(14px);
+}
+
+.best-hotels__leftArrow path {
+  fill: #C6C6C6;
+}
+
+.best-hotels__rightArrow {
+  border-color: #454545;
+  text-align: center;
+  cursor: pointer;
+}
+
+.best-hotels__leftArrow path {
+  fill: #454545;
+}
+
+.best-hotels__topLine {
+  margin-left: 58px;
+  margin-right: 26px;
+  height: 1px;
+  width: 237px;
+  background-color: #C4C4C4;
+}
+
+.best-hotels__bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.best-hotels__tab--title {
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  padding: 3px 12px 3px 15px;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+
+.best-hotels__tab--stars {
+  height: 18px;
+  width: 115px;
+  position: absolute;
+  top: 180px;
+  left: 173px;
+}
+
+.best-hotels__tab--text {
+  position: absolute;
+  width: 263px;
+  height: 49px;
+  top: 234px;
+  left: 114px;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
