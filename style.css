@@ -470,6 +470,7 @@ margin: 17px 27px 11px 0;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .actual-tours {
@@ -596,4 +597,194 @@ margin: 17px 27px 11px 0;
   line-height: 18px;
   color: #3E3E3E;
   margin-top: 3px;
+}
+
+/* tour finder */
+
+.tour-finder {
+  margin-top: 60px;
+  margin-left: 200px;
+  width: 1042px;
+  height: 140px;
+  background: #F8F8F8;
+  border-top: 6px solid #969696;
+}
+
+.tour-finder__top {
+  display: flex;
+  padding: 25px 0 0 10px;
+  margin-bottom: 5px;
+}
+
+.tour-finder__top--icon {
+  margin-right: 6px;
+}
+
+.tour-finder__top--text {
+  margin-right: 40px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(34, 34, 34, 0.4);
+}
+
+.tour-finder__top--text:nth-child(4) {
+  margin-right: 110px;
+}
+
+.tour-finder__top--text:nth-child(6) {
+  margin-right: 120px;
+}
+
+.tour-finder__top--text:nth-child(8) {
+  margin-right: 70px;
+}
+
+
+.finder-form {
+  display: flex;
+}
+
+.finder-form__city {
+  width: 100px;
+  height: 50px;
+  padding: 15px 0 15px 15px;
+  background: #FFFFFF;
+  border: 1px solid rgba(46, 46, 46, 0.2);
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.finder-form__city--select {
+  display: block; 
+  font-size: 14px; 
+  font-family: sans-serif; 
+  font-weight: 700; 
+  line-height: 17px; 
+  max-width: 100%; 
+  margin: 0; 
+  padding: 0;
+  border: none;
+  color: #4B4B4B;
+} 
+
+.finder-form__city--select:focus {
+  outline: none;
+}
+
+.finder-form__country {
+  width: 213px;
+  height: 50px;
+  padding: 15px 0 15px 15px;
+  background: #FFFFFF;
+  border: 1px solid rgba(46, 46, 46, 0.2);
+  border-left: none;
+}
+
+.finder-form__country--input {
+  display: block; 
+  font-size: 14px; 
+  font-family: sans-serif; 
+  font-weight: 700; 
+  color: #4B4B4B;
+  line-height: 17px; 
+  max-width: 100%; 
+  margin: 0; 
+  padding: 0;
+  border: none;
+} 
+
+.finder-form__country--input:focus {
+  outline: none;
+}
+
+.finder-form__date {
+  width: 213px;
+  height: 50px;
+  padding: 15px 0 15px 15px;
+  background: #FFFFFF;
+  border: 1px solid rgba(46, 46, 46, 0.2);
+  border-left: none;
+}
+
+.finder-form__date--input {
+  display: block; 
+  font-size: 14px; 
+  font-family: sans-serif; 
+  font-weight: 700; 
+  color: #4B4B4B;
+  line-height: 17px; 
+  max-width: 100%; 
+  margin: 0; 
+  padding: 0;
+  border: none;
+}
+
+.finder-form__quantity {
+  width: 140px;
+  height: 50px;
+  padding: 15px 0 15px 15px;
+  background: #FFFFFF;
+  border: 1px solid rgba(46, 46, 46, 0.2);
+  border-left: none;
+}
+
+.finder-form__quantity--input {
+  display: block; 
+  font-size: 14px; 
+  font-family: sans-serif; 
+  font-weight: 700; 
+  color: #4B4B4B;
+  line-height: 17px; 
+  max-width: 100%; 
+  margin: 0; 
+  padding: 0;
+  border: none;
+}
+
+.finder-form__quantity--input:focus {
+  outline: none;
+}
+
+.finder-form__days {
+  display: flex;
+  width: 213px;
+  height: 50px;
+  padding: 15px 0 15px 15px;
+  margin-right: 30px;
+  background: #FFFFFF;
+  border: 1px solid rgba(46, 46, 46, 0.2);
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-left: none;
+}
+
+.finder-form__days--input {
+  display: block; 
+  font-size: 14px; 
+  font-family: sans-serif; 
+  font-weight: 700; 
+  color: #4B4B4B;
+  line-height: 17px; 
+  max-width: 46%; 
+  margin: 0; 
+  padding: 0;
+  border: none;
+}
+
+.finder-form__days--input:focus {
+  outline: none;
+}
+
+.finder-form_button {
+  width: 135px;
+  height: 50px;
+  background: #DD4053;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
 }
