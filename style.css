@@ -26,6 +26,14 @@
   text-decoration: none;
 }
 
+.topLine {
+  margin-left: 58px;
+  margin-right: 26px;
+  height: 1px;
+  width: 237px;
+  background-color: #C4C4C4;
+}
+
 /* Header */
 
 .header__wrapper {
@@ -428,13 +436,6 @@ margin: 17px 27px 11px 0;
   fill: #454545;
 }
 
-.best-hotels__topLine {
-  margin-left: 58px;
-  margin-right: 26px;
-  height: 1px;
-  width: 237px;
-  background-color: #C4C4C4;
-}
 
 .best-hotels__bottom {
   display: flex;
@@ -450,7 +451,6 @@ margin: 17px 27px 11px 0;
   color: #FFFFFF;
   background: rgba(0, 0, 0, 0.35);
 }
-
 
 .best-hotels__tab--stars {
   height: 18px;
@@ -470,4 +470,130 @@ margin: 17px 27px 11px 0;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+
+.actual-tours {
+  padding: 100px 0 0 200px;
+}
+
+.actual-tours__top {
+  display: flex;
+  align-items: center;
+}
+
+.actual-tours__topLine {
+  width: 340px;
+  height: 1px;
+  margin-left: 45px;
+
+}
+
+.actual-tours__bottom {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 1040px;
+}
+
+.actual-tours__tab {
+  width: 326px;
+  height: 480px;
+  background-color: #F8F8F8;
+}
+
+.actual-tours__img {
+  position: relative;
+}
+
+.actual-tours__img img {
+  width: 326px;
+  height: 250px;
+}
+
+.actual-tours__img span {
+  position: absolute;
+  height: 30px;
+  top: 20px;
+  left: 0;
+  padding: 3px 12px 3px 15px;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.actual-tours__info {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 20px 20px;
+}
+
+.actual-tours__title {
+  height: 34px;
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #323232;
+  cursor: pointer;
+ }
+
+ .actual-tours__text {
+  margin-top: 29px;
+  height: 34px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #848484;
+ }
+
+ .actual-tours__topLine--tab {
+   margin: 0;
+   margin-top: 26px;
+   width: 100%;
+ }
+
+ .actual-tours__blocks {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 22px;
+ }
+
+ .actual-tours__leftBlock {
+   display: flex;
+   flex-direction: column;
+ }
+
+.actual-tours__till {
+  margin-right: 5px;
+  font-size: 17px;
+  line-height: 24px;
+  color: #DD4053;
+}
+
+.actual-tours__price {
+  font-size: 26px;
+  line-height: 24px;
+  color: #DD4053;
+}
+
+.actual-tours__for {
+  font-size: 13px;
+  line-height: 34px;
+  color: #C9C9C9;
+}
+
+.actual-tours__rightBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.actual-tours__during {
+  font-size: 13px;
+  line-height: 18px;
+  color: #3E3E3E;
+}
+
+.actual-tours__data {
+  font-size: 13px;
+  line-height: 18px;
+  color: #3E3E3E;
+  margin-top: 3px;
 }
