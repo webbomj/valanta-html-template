@@ -20,6 +20,10 @@
   border-color: #DD4053;
 }
 
+.circle:hover path{
+  fill: #DD4053;
+}
+
 .button {
   height: 45px;
   width: 140px;
@@ -33,7 +37,9 @@
 
 .button:hover {
   border-color: #DD4053;
+  color: #DD4053;
 }
+
 
 .topLine {
   margin-left: 58px;
@@ -90,6 +96,10 @@ margin: 17px 27px 11px 0;
   text-decoration: none;
 }
 
+.header__socialIcons a:hover path {
+  fill: #DD4053;
+}
+
 .header__socialIcons svg {
   width: 20px;
   height: 20px;
@@ -122,6 +132,10 @@ margin: 17px 27px 11px 0;
   color: #393939;
 }
 
+.header__phoneNumbers--numbers a:hover {
+  color: #DD4053;
+}
+
 .header__phoneNumbers--phoneIcon {
   margin-left: 15px;
   transform: translateY(3px);
@@ -140,6 +154,10 @@ margin: 17px 27px 11px 0;
   padding: 23px 30px 22px 15px;
   background-color: #EFF3F6;
   margin-top: 23px;
+}
+
+.header__button:hover {
+  outline: 1px solid #2d6a8d;
 }
 
 .header__button span {
@@ -217,8 +235,16 @@ margin: 17px 27px 11px 0;
   margin-right: 70px;
 }
 
-.main-nav__item--active {
+.main-nav__item:hover {
   border-bottom: 3px solid #DD4053;
+}
+
+.main-nav__item-ico {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  padding-bottom: 20px;
+  margin-right: 70px;
 }
 
 .main-nav__link {
@@ -285,6 +311,10 @@ margin: 17px 27px 11px 0;
   text-decoration: none;
 }
 
+.slider__button:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
 .slider__pages {
   display: flex;
   position: absolute;
@@ -342,6 +372,10 @@ margin: 17px 27px 11px 0;
   margin-top: 30px;
 }
 
+.advantage__buttons a {
+  text-decoration: none;
+}
+
 .advantage__firstButton {
   width: 270px;
   height: 50px;
@@ -355,6 +389,10 @@ margin: 17px 27px 11px 0;
   cursor: pointer;
 }
 
+.advantage__firstButton:hover {
+  background: rgba(189, 189, 189, 0.8);
+}
+
 .advantage__secondButton {
   width: 220px;
   height: 50px;
@@ -366,6 +404,10 @@ margin: 17px 27px 11px 0;
   line-height: 20px;
   color: #969696;
   cursor: pointer;
+}
+
+.advantage__secondButton:hover {
+  background: rgba(250, 243, 243, 0.8);
 }
 
 .advantage__list {
@@ -482,6 +524,10 @@ margin: 17px 27px 11px 0;
   cursor: pointer;
 }
 
+.best-hotels__tab--text:hover {
+  color: rgb(255, 213, 218);
+}
+
 .actual-tours {
   padding: 100px 0 0 200px;
 }
@@ -536,6 +582,10 @@ margin: 17px 27px 11px 0;
   padding: 0 20px 20px 20px;
 }
 
+.actual-tours__info a {
+  text-decoration: none;
+}
+
 .actual-tours__title {
   height: 34px;
   margin-top: 10px;
@@ -544,6 +594,10 @@ margin: 17px 27px 11px 0;
   text-transform: uppercase;
   color: #323232;
   cursor: pointer;
+ }
+
+ .actual-tours__title:hover {
+   color: #DD4053;
  }
 
  .actual-tours__text {
@@ -799,6 +853,10 @@ margin: 17px 27px 11px 0;
   cursor: pointer;
 }
 
+.finder-form_button:hover {
+  background: #f56878;
+}
+
 /* news */
 .news {
   position: relative;
@@ -853,6 +911,10 @@ margin: 17px 27px 11px 0;
   margin-top: 15px;
 }
 
+.news__tab--date + a {
+  text-decoration: none;
+}
+
 .news__tab--date span {
   font-size: 14px;
   line-height: 24px;
@@ -873,12 +935,26 @@ margin: 17px 27px 11px 0;
   cursor: pointer;
 }
 
+.news__tab--title:hover {
+  color: #DD4053;
+}
+
 .news__tab--link {
   position: relative;
   margin-top: 25px;
   color: #DD4053;
   font-size: 14px;
   text-decoration: none;
+  z-index: 4;
+}
+
+.news__tab--link:hover {
+  color: #fb7080;
+}
+
+.news__tab--link:hover::after {
+  color: #fb7080;
+  background-color: #fb7080;
 }
 
 .news__tab--link::after {
@@ -929,6 +1005,7 @@ margin: 17px 27px 11px 0;
   right: 140px;
   width: 372px;
   height: 405px;
+  z-index: 3;
 }
 
 .blog__top {
@@ -938,6 +1015,11 @@ margin: 17px 27px 11px 0;
 
 .blog__topLine {
   width: 680px;
+  z-index: 2;
+}
+
+.blog__button {
+  z-index: 5;
 }
 
 .blog__bot {
@@ -970,6 +1052,10 @@ margin: 17px 27px 11px 0;
   transform: translateY(2px);
 }
 
+.blog__tab--data + a{
+  text-decoration: none;
+}
+
 .blog__tab--title {
   display: block;
   margin-top: 7px;
@@ -979,10 +1065,16 @@ margin: 17px 27px 11px 0;
   cursor: pointer;
 }
 
+.blog__tab--title:hover {
+  color: #DD4053;
+}
+
 .blog__tab--link {
   margin-top: 20px;
   cursor: pointer;
 }
+
+
 
 .blog__tab--link a {
   margin-right: 45px;
@@ -992,8 +1084,16 @@ margin: 17px 27px 11px 0;
   text-decoration: none;
 }
 
+.blog__tab--link:hover a {
+  color: #fb7080;
+}
+
 .blog__tab--link path {
   fill: #DD4053;
+}
+
+.blog__tab--link:hover path {
+  fill: #fb7080;
 }
 
 .blog__leftArrow {
@@ -1090,10 +1190,13 @@ margin: 17px 27px 11px 0;
   align-items: center;
 }
 
+.newsletter__radio label:hover {
+  color: rgb(255, 187, 187);
+}
+
 .newsletter__radio input {
   visibility: hidden;
   opacity: 0;
-
   z-index: -1;
 }
 
@@ -1167,6 +1270,10 @@ margin: 17px 27px 11px 0;
   font-size: 16px;
   line-height: 20px;
   cursor: pointer;
+}
+
+.newsletter__button:hover {
+  background: #faecec;
 }
 
 /* benefits */
@@ -1261,6 +1368,7 @@ margin: 17px 27px 11px 0;
 .footer {
   position: relative;
   height: 370px;
+  z-index: 1;
 }
 
 .footer__imgMontains {
@@ -1270,8 +1378,7 @@ margin: 17px 27px 11px 0;
   width: 100%;
   height: auto;
   opacity: 0.7;
-  z-index: 1;
-
+  z-index: -1;
 }
 
 .footer__top {
@@ -1283,6 +1390,7 @@ margin: 17px 27px 11px 0;
 .footer__logo {
   margin-right: 150px;
   background-blend-mode: darken;
+  z-index: -2;
 }
 
 .footer__list {
@@ -1300,6 +1408,10 @@ margin: 17px 27px 11px 0;
   line-height: 19px;
   color: #3E3E3E;
   cursor: pointer;
+}
+
+.footer__item a:hover {
+  color: #DD4053;
 }
 
 .footer__firstCol,
@@ -1327,14 +1439,21 @@ margin: 17px 27px 11px 0;
   color: #3E3E3E;
 }
 
-.footer__fourthCol span{
+.footer__fourthCol span a{ 
   display: block;
   font-size: 15px;
   line-height: 19px;
   color: #3E3E3E;
+  text-decoration: none;
 }
 
-.footer__fourthCol a {
+.footer__fourthCol span:hover a {
+  color: #DD4053;
+}
+
+
+
+.fouter__fourthCol--link {
   display: block;
   margin-top: 25px;
   font-size: 12px;
@@ -1343,6 +1462,11 @@ margin: 17px 27px 11px 0;
   color: #3E3E3E;
   opacity: 0.5;
   text-decoration: none;
+}
+
+.fouter__fourthCol--link:hover {
+  color: black;
+  opacity: 0.8;
 }
 
 .footer__line {
@@ -1375,4 +1499,8 @@ margin: 17px 27px 11px 0;
 
 .footer__socialIcon a {
   margin-right: 10px;
+}
+
+.footer__socialIcon svg:hover path {
+  fill: #DD4053;
 }
