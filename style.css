@@ -328,6 +328,9 @@ margin: 17px 27px 11px 0;
   opacity: 0.5;
   border: 1px solid #FFFFFF;
   border-radius: 50%;
+}
+
+.slider__pages div{
   margin-right: 10px;
 }
 
@@ -1430,8 +1433,6 @@ a .offer__button {
 .offer__button:hover {
   background: #f1dcdc;
 }
-
-
 
 /* footer  */
 
