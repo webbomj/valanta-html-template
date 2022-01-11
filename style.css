@@ -45,7 +45,7 @@
   margin-left: 58px;
   margin-right: 26px;
   height: 1px;
-  width: 237px;
+  width: 179px;
   background-color: #C4C4C4;
 }
 
@@ -55,7 +55,7 @@
   display: flex;
   height: 100px;
   border-bottom: 1px solid #D0D0D0;
-  padding: 0 75px 0 100px;
+  padding: 0 0 0 10px;
 }
 
 .header__logo {
@@ -1280,7 +1280,7 @@ margin: 17px 27px 11px 0;
 
 .benefits {
   margin-top: 23px;
-  padding: 63px 200px 0  200px;
+  padding: 63px 70px 0  200px;
   height: 1000px;
   position: relative;
   background: #F8F8F8;
