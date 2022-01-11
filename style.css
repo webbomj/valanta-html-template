@@ -727,6 +727,7 @@ margin: 17px 27px 11px 0;
   margin: 0; 
   padding: 0;
   border: none;
+  outline: none;
 }
 
 .finder-form__quantity {
@@ -1255,4 +1256,123 @@ margin: 17px 27px 11px 0;
 
 .benefits__tab:hover path {
   fill: #FFFFFF;
+}
+
+.footer {
+  position: relative;
+  height: 370px;
+}
+
+.footer__imgMontains {
+  position: absolute;
+  left: 0;
+  top: -230px;
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+  z-index: 1;
+
+}
+
+.footer__top {
+  padding: 130px 200px 0 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  margin-right: 150px;
+  background-blend-mode: darken;
+}
+
+.footer__list {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__item {
+  list-style-type: none;
+}
+
+.footer__item a{
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 19px;
+  color: #3E3E3E;
+  cursor: pointer;
+}
+
+.footer__firstCol,
+.footer__thirdCol,
+.footer__secondCol {
+  margin-right: 80px;
+}
+
+.footer__thirdCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__thirdCol--title{
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #3E3E3E;
+  opacity: 0.5;
+}
+
+.footer__thirdCol--text {
+  font-size: 15px;
+  line-height: 19px;
+  color: #3E3E3E;
+}
+
+.footer__fourthCol span{
+  display: block;
+  font-size: 15px;
+  line-height: 19px;
+  color: #3E3E3E;
+}
+
+.footer__fourthCol a {
+  display: block;
+  margin-top: 25px;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #3E3E3E;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.footer__line {
+  width: 1036px;
+  height: 1px;
+  margin-left: 200px;
+  margin-top: 40px;
+  margin-bottom: 22px;
+  background: rgba(29, 29, 29, 0.2);
+  border-radius: 2px;
+}
+
+.footer__bot {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  padding-right: 200px;
+
+}
+
+.footer__bot span {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(62, 62, 62, 0.5);
+}
+
+.footer__socialIcon {
+  display: flex;
+}
+
+.footer__socialIcon a {
+  margin-right: 10px;
 }
